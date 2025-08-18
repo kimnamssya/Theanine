@@ -1,0 +1,3 @@
+conf.d/config.yaml
+results/
+**/__pycache__/**

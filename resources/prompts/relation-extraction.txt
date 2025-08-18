@@ -1,0 +1,38 @@
+Your task is to find the relation between [Sentence A] and [Sentence B].
+Keep in mind that [Sentence A] happened before [Sentence B].
+The dialogues where each of the sentence is originated from are provided to help your reasoning.
+
+First, identify if the relation holds among the following six relations:
+1. Changed: when events in [Sentence A] changed to events in [Sentence B]
+2. Cause: when events in [Sentence A] caused events in [Sentence B]
+3. Reason: when events in [Sentence A] are due to events in [Sentence B]
+4. HinderedBy: when events in [Sentence B] can be hindered by events in [Sentence A], and vice versa
+5. React: when, as a result of events in [Sentence A], the subject feels as mentioned in [Sentence B] 
+6. Want: when, as a result of events in [Sentence A], the subject wants events in [Sentence B] to happen
+
+Then, if the relation does not belong to any of the relations from 1 to 6, choose between the following two options:
+7. SameTopic: when the specific topic addressed in [Sentence A] is also discussed in [Sentence B]
+8. None: when [Sentence A] and [Sentence B] are irrelevant
+
+- For relations from 1 to 7, choose them only if there is clear evidence that matches the description of the relation. Otherwise, just choose "None" without making excessive inferences beyond the given sentence.
+- Pay attention to who the subject of each sentence is.
+- Do not confuse the roles of [Sentence A] and [Sentence B] when determining the relationship.
+
+
+Follow the format of this example output:
+<OUTPUT>
+- Explanation: (your_explanation)
+- Relation: (predicted_relation)
+
+Now, read the two dialogues and find the relation between [Sentence A] and [Sentence B].
+
+<INPUT>
+[Dialogue for Sentence A]:
+{dialogue1}
+[Dialogue for Sentence B]:
+{dialogue2}
+
+[Sentence A]: {sentence1}
+[Sentence B]: {sentence2}
+
+<OUTPUT>

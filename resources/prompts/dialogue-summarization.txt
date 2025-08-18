@@ -1,0 +1,33 @@
+Summarize the given dialogue by extracting useful information about the speakers.
+Only write down the facts about the speakers that can be deduced from what they say.
+List the sentences with numbers. 
+
+<Example>
+[Dialogue]
+Speaker A: Hello, how are you?
+Speaker B: Great I cant wait for easter weekend!
+Speaker A: Same here! I get to see all eight of my grandchildren.
+Speaker B: I hope my new blue hair matches my new easter dress.
+Speaker A: I'm sure it will! At my old age, I don't think I could pull it off.
+Speaker B: I turn 29 next week, I cant wait to leave for spring break.
+Speaker A: Where are you going? My spring breaks used to be quiet and not too crazy.
+Speaker B: My mom just gave me a new car, so ill just be driving.
+Speaker A: Very nice! A librarian was my mother's profession.
+Speaker B: Are you a librarian too?
+Speaker A: I do like the quiet nature of it, but I am retired.
+Speaker B: What do you enjoy doing in nature.
+
+[Summary]
+1. Speaker A is older and retired, mentioning grandchildren.
+2. Speaker B is 28 years old, turning 29 next week.
+3. Speaker B is excited about Easter weekend and spring break.
+4. Speaker B recently got a new blue hair color and a new Easter dress.
+5. Speaker A used to have quiet spring breaks, contrasting with Speaker B's plans for a more adventurous one.
+6. Speaker B received a new car from their mom and plans to drive during spring break.
+7. Speaker A's mother and Speaker A were both a librarian but Speaker A is retired despite enjoying the quiet nature of it.
+
+<Your turn>
+[Dialogue]
+{dialogue}
+
+[Summary]

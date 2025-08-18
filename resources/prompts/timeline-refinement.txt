@@ -1,0 +1,20 @@
+Given Timelines, which are structured in this format: [Event A] - (relation) - [Event B] ..., your job is to naturally transform each timeline into useful information that can help an language model to generate a proper next response for Current Dialogue.
+
+These are the explanation of each relation type:
+1. Changed: when events in [Event A] changed to events in [Event B]
+2. Cause: when events in [Event A] caused events in [Event B]
+3. Reason: when events in [Event A] are due to events in [Event B]
+4. HinderedBy: when events in [Event B] can be hindered by events in [Sentence A], and vice versa
+5. React: when, as a result of events in [Event A], the subject feels as mentioned in [Event B]
+6. Want: when, as a result of events in [Event A], the subject wants events in [Event B] to happen
+7. SameTopic: when the specific topic addressed in [Event A] is also discussed in [Event B]
+
+If a given relation is not proper, naturally connect them without using that relation.
+
+Current Dialogue:
+{current_dialogue}
+
+Timelines:
+{input_path}
+
+Your Outputs (only the transformed timelines):

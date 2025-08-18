@@ -1,0 +1,12 @@
+Generate the most plausible next response based on the current conversation. You can refer to the memory, but you should ignore the memory if it mislead the next response. Do not put too much information in the next response. 
+
+Your response should follow the style of the conversation.
+
+Memory:
+{memory_text}
+
+Current conversation:
+{current_dialogue}
+
+Next Response:
+{speaker}:
